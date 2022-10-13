@@ -1,34 +1,37 @@
 * {
     margin: 0px;
     padding: 0px;
+  /*  border: 1px solid red;*/
+    font-family: roboto;
+
 }
 
+body main {
+    display: flex;
+}
 .nav {
     background-color: black;
     margin: 5px;
     border-radius: solid 2px;
-    height: 100px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto';
     align-items: center;
     color: white;
 }
-
 .nav-title {
     margin: 10px 10px 10px 10ox;
     font-size: 30px;
     justify-content: space-around;
     color: white;
 }
-
 .nav-liks {
     width: inherit;
     justify-content: space-around;
     display: flex;
     color: white;
 }
-
 ul {
     display: flex;
     margin: 0px;
@@ -45,10 +48,6 @@ a {
     text-decoration: none;
     color: white;
 }
-.cuadro1h1 {
-    padding-bottom: 20px;
-    font-family: roboto;
-}
 .btn {
     margin: 10px;
     display: flex;
@@ -57,27 +56,66 @@ a {
 
 
 .cuadro1 {
-    background-color: cadetblue;
+   /* background-color: cadetblue;
     margin: 10px auto;
     width: 300px;
     height: 100px;
     border: 2x solid red;
+    flex-direction: column;*/
+    width: 30%;
+}
+.cuadro11h1 {
+    padding-bottom: 20px;
 }
 
-header {
-    left: 25px;
-    top: 60px;
-    /*z-index: 2;*/
-    position: relative;
-
+.cuadro11header {
+    width: 100%;
+    height: 80px;
+    background-color: cyan;
 }
-
+.cuadro12header {
+    width: 100%;
+    height: 30px;
+    background-color: black;
+    color: white;
+}
+.cuadro11-main {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.cuadro12-main {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    margin: auto;
+}
+.cuadro11-main > header {
+    margin-top: -60px;
+}
+.cuadro11-main > header > img {
+    height: 100px;
+    border-radius: 50%;
+}
+.cuadro11-main > header > p {
+    margin-top: 20px;
+}
+.cuadro11-main > header > p img {
+    height: 18px;
+}
+#cuadro12-main-p {
+    color: gray;
+}
+#cuadro12-main-p3 {
+   font-size: 10px;
+}
 section {
     background-color: white;
     left: 0px;
     top: 20px;
     position: inherit;
-    border: 1px solid royalblue;
+    /*border: 1px solid royalblue;*/
     padding-top: 60px;
     padding-right: 20px;
     padding-bottom: 0px;
@@ -90,15 +128,43 @@ section {
     height: 20px;
 }*/
 
-.cuadro2 {
+/*.cuadro12 {
     background-color: black;
     margin: 10px auto;
     width: 200px;
     height: 50px;
     border: 2x solid;
     display: flex;
-}
+}*/
 .cuadro2h1 {
     padding-bottom: 20px;
     font-family: roboto;
+}
+.personas {
+    margin: 5px 10px 0px 10px;
+    /*border: solid 1px black;*/
+    display: flex;
+}
+.iconos {
+    margin: 5px 2px 0px 10px;
+    /*border: solid 1px black;*/
+    display: flex;
+    /*margin-left: auto;*/
+}
+.recuadro {
+    display: flex;
+    justify-content: space-between;
+    /*border: solid 1px black;*/
+    margin: 2px 0px 0px 0px;
+    padding: 5px;
+}
+
+.iconos img {
+    margin-left: 10px;
+}
+
+.cuadro11, .cuadro12, .cuadro21, .cuadro22 {
+    border: 1px solid black;
+    padding: 10px;
+    margin: 5px;
 }
